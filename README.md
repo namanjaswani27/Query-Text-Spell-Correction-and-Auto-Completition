@@ -4,6 +4,7 @@
 Given any query (text input) the model will correct any spellings and will predict the next few words for the query. This can be used to improve user experience on any online searching platforms, especially on e-commerce websites.
 
 # Methods Overview:
+*Model was trained on `Kaggle TPUs`*
 - Training:  Trained two separate seq-2-seq models, each with Bahdanau’s Additive Attention.
 - Inference: Query text passed through one seq-2-seq model and its spell_corrected output is passed through another seq-2-seq model for auto-completion.
 
